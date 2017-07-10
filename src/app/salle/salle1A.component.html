@@ -1,0 +1,21 @@
+<div align="center">
+  <FONT face="Comic sans MS" color="#000000" size=6>
+  <p>
+    <strong>Films de la salle A</strong>
+  </p>
+  </FONT>
+</div>
+<div class="post-list" *ngFor="let post of posts">
+  <a (click)="goToShow(post)">
+    <div>
+      {{post.title}}
+    </div>
+    <div>
+      <p>
+        {{post.description}}
+      </p>
+    </div>
+  </a>
+</div>
+<a routerLink='/home'>Home</a>
+<a routerLink='/home/1'>Choix des Salles</a>
