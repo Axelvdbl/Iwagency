@@ -1,0 +1,36 @@
+Rails.application.routes.draw do
+  resources :cinema
+  resources :cine1
+  resources :cine2
+  resources :salle1
+  resources :salle2
+  resources :salle3
+  resources :salle4
+  resources :salle5
+  resources :salle6
+  resources :star1
+  resources :star2
+  resources :transp1
+  resources :transp2
+  resources :bay1
+  resources :bay2
+  resources :seign1
+  resources :seign2
+  resources :tuches1
+  resources :tuches2
+  resources :fast1
+  resources :fast2
+  resources :mmm1
+  resources :mmm2
+  resources :momie1
+  resources :momie2
+  resources :pirate1
+  resources :pirate2
+  resources :trans1
+  resources :trans2
+  resources :mech1
+  resources :mech2
+  resources :wonder1
+  resources :wonder2
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+end
